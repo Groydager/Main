@@ -1,0 +1,34 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color:black;
+  line-height: 1;
+}
+
+p {
+  text-indent: 30px;
+}
+
+.title {
+  text-align: center;
+  letter-spacing: 4px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.justify {
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+
+ul {
+  list-style-type:lower-greek;
+}
+
+ol {
+  list-style-type: upper-latin;
+  list-style-position: inside;
+  color: red;
+}
