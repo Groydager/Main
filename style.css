@@ -6,15 +6,16 @@ body {
 }
 
 p {
-  text-indent: 30px;
+  text-indent: 20px;
 }
 
 .title {
   text-align: center;
-  letter-spacing: 4px;
-  text-decoration: underline;
+  letter-spacing: 8px;
+  text-decoration:unset;
   text-transform: uppercase;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkolivegreen;
 }
 
 .justify {
@@ -25,10 +26,11 @@ p {
 
 ul {
   list-style-type:lower-greek;
+  color: rgb(255, 127, 159);
 }
 
 ol {
   list-style-type: upper-latin;
   list-style-position: inside;
-  color: red;
+  color: rgb(72, 0, 255);
 }
