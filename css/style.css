@@ -1,0 +1,52 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color:black;
+  line-height: 16px;
+}
+
+p {
+  text-indent: 30px;
+}
+
+.title {
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 8px;
+  text-decoration:underline;
+  text-transform:uppercase;
+  font-family:'Franklin Gothic Medium';
+  color: darkolivegreen;
+  letter-spacing: -2px;
+}
+
+.justify {
+  text-align:center;
+  font-weight:lighter;
+  font-style:italic;
+}
+
+.real {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align:left;
+  font-style:italic;
+  line-height: 20px;
+}
+
+ul {
+  list-style-type:lower-greek;
+  color: rgb(255, 127, 159);
+}
+
+ol {
+  list-style-type: upper-latin;
+  list-style-position: inside;
+  color: rgb(72, 0, 255);
+}
+
+.ruf {
+  color: black;
+  list-style-position: inside;
+  list-style-type:decimal-leading-zero;
+}
