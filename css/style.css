@@ -50,3 +50,29 @@ ol {
   list-style-position: inside;
   list-style-type:decimal-leading-zero;
 }
+
+.table {
+  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.table th {
+  text-align: left;
+  padding: 5px 10px;
+  text-align: center;
+  color: blue;
+  border: 2px solid black
+}
+.table td {
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid black;
+
+}
+
+.table tfoot td {
+  text-align: right;
+  padding-right: 30px;
+}
