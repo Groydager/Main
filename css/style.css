@@ -11,13 +11,14 @@ p {
 
 .title {
   text-align: center;
-  font-weight: normal;
-  letter-spacing: 8px;
+  font-weight: 15px;
+  letter-spacing: 15px;
   text-decoration:underline;
   text-transform:uppercase;
   font-family:'Franklin Gothic Medium';
   color: darkolivegreen;
   letter-spacing: -2px;
+  margin: 20px;
 }
 
 .justify {
@@ -73,6 +74,29 @@ ol {
 }
 
 .table tfoot td {
-  text-align: right;
+  text-align: left;
   padding-right: 30px;
+}
+
+.text-red {
+  color: red;
+  text-transform: uppercase;
+  text-decoration:underline;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px;
+}
+
+.separ {
+  margin: 20px 10px 40px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.page {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
 }
