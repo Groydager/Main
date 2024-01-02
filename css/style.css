@@ -3,11 +3,10 @@ body {
   font-size: 18px;
   color:black;
   line-height: 16px;
+  background-color:rgb(41, 41, 44);
 }
 
-p {
-  text-indent: 30px;
-}
+
 
 .title {
   text-align: center;
@@ -99,4 +98,31 @@ ol {
 width: 800px;
 margin-left: auto;
 margin-right: auto;
+}
+
+/* Post */
+
+.post {
+  width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  padding: 15px 25px;
+  background-color: blanchedalmond;
+  background-image: url("../img/milkway.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.post-title {
+  margin: 0 0 25px 0;
+  color: rgb(176, 7, 7);
+}
+
+.post-text p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  color: white;
 }
