@@ -109,11 +109,8 @@ margin-right: auto;
   margin-right: auto;
   border: 1px solid gray;
   padding: 15px 25px;
-  background-color: blanchedalmond;
-  background-image: url("../img/milkway.png");
-  background-repeat: no-repeat;
+  background: url("../img/milkway.png") #fff no-repeat center ;
   background-size: cover;
-  background-position: center;
 }
 
 .post-title {
@@ -126,3 +123,15 @@ margin-right: auto;
   font-size: 16px;
   color: white;
 }
+
+/* Gradient */
+
+.gradient {
+  width: 800px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border: solid wheat;
+  /*background-image:linear-gradient(45deg,blue,green,#e7fb06)*/
+    background-image: radial-gradient(circle,blue,red)
