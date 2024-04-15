@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   color:black;
   line-height: 16px;
-  background-color:rgb(41, 41, 44);
+  background-color:rgb(240, 240, 245);
 }
 
 
@@ -15,7 +15,7 @@ body {
   text-decoration:underline;
   text-transform:uppercase;
   font-family:'Franklin Gothic Medium';
-  color: darkolivegreen;
+  color: rgb(99, 59, 220);
   letter-spacing: -2px;
   margin: 20px;
 }
@@ -107,7 +107,7 @@ margin-right: auto;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid gray;
+  border: 1px solid rgb(119, 28, 28);
   padding: 15px 25px;
   background: url("../img/milkway.png") #fff no-repeat center ;
   background-size: cover;
@@ -126,12 +126,12 @@ margin-right: auto;
 
 /* Gradient */
 
-.gradient {
+.gradient 
   width: 800px;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
-  border: solid wheat;
+  border: solid rgb(37, 50, 232);
   /*background-image:linear-gradient(45deg,blue,green,#e7fb06)*/
-    background-image: radial-gradient(circle,blue,red)
+    background-image: radial-gradient circle,blue,red
